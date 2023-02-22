@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(252, 248, 248);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: white;
+    width:600px;
+    height:90vh;
+    padding: 19px 40px;
+    padding-left: 100px;
+    box-shadow: 1px 1px 10px 0px rgb(233, 232, 232);
+    border-radius: 10px;
+}
+.register{
+    color: grey;
+    text-align: center;
+}
+#email , #password{
+    width:70%;
+    height:35px;
+    text-indent: 1em;
+    background-color: aliceblue;
+    border: none;
+}
+#email:focus,#password:focus
+{
+    outline: none;
+}
+.characters{
+    color: grey;
+    font-size: small;
+}
+
+#register{
+    width: 68%;
+    height:40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: 300;
+    margin-top: 20px;
+}
